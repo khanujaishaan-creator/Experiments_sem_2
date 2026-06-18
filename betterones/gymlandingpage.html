@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PowerFit Gym</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
+background:black;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80');
+background-size:cover;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+margin:20px;
+font-size:20px;
+}
+
+.btn{
+padding:12px 25px;
+background:#ff4500;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:50px;
+}
+
+.card{
+background:#222;
+padding:25px;
+width:250px;
+border-radius:10px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>PowerFit</h2>
+
+<ul>
+<li>Home</li>
+<li>Programs</li>
+<li>Pricing</li>
+<li>Contact</li>
+</ul>
+</nav>
+
+<section class="hero">
+<h1>Transform Your Body</h1>
+<p>Train Hard. Stay Strong. Live Better. Live Longer</p>
+<a href="#" class="btn">Join Now</a>
+</section>
+
+<section class="features">
+
+<div class="card">
+<h3>Weight Training</h3>
+<p>Build strength and muscle.</p>
+</div>
+
+<div class="card">
+<h3>Cardio</h3>
+<p>Boost endurance and fitness.</p>
+</div>
+
+<div class="card">
+<h3>Personal Trainer</h3>
+<p>Expert guidance every day.</p>
+</div>
+
+</section>
+
+</body>
+</html>

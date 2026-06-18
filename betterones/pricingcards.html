@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pricing Plans</title>
+<style>
+body{
+font-family:Arial;
+background:#f4f4f4;
+text-align:center;
+}
+.container{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:50px;
+}
+.card{
+background:white;
+width:250px;
+padding:25px;
+border-radius:15px;
+box-shadow:0 0 10px gray;
+transition:0.3s;
+}
+.card:hover{
+transform:translateY(-10px);
+}
+.price{
+font-size:35px;
+font-weight:bold;
+color:#007bff;
+}
+button{
+background:#007bff;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<h1>Choose Your Plan</h1>
+
+<div class="container">
+
+<div class="card">
+<h2>Basic</h2>
+<div class="price">₹399</div>
+<p>1 Website</p>
+<p>Email Support</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<h2>Pro</h2>
+<div class="price">₹1199</div>
+<p>10 Websites</p>
+<p>Priority Support</p>
+<button>Buy Now</button>
+</div>
+
+<div class="card">
+<h2>Premium</h2>
+<div class="price">₹2199</div>
+<p>Unlimited Websites</p>
+<p>24/7 Support</p>
+<button>Buy Now</button>
+</div>
+
+</div>
+
+</body>
+</html>
